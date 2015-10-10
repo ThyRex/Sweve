@@ -21,7 +21,7 @@
         android:text="Report a shitty driver"
         android:textColor="#FFFFFF"
         android:textSize="32sp"
-        android:id="@+id/textView2"
+        android:id="@+id/TEXT_HEADLINER"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="113dp" />
@@ -30,19 +30,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
-        android:id="@+id/button"
+        android:id="@+id/BUTTON_SUBMIT"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp" />
 
     <EditText
         android:layout_width="220sp"
         android:layout_height="50sp"
-        android:id="@+id/editText"
-        android:layout_above="@+id/button"
+        android:id="@+id/EDITTEXT_LICENSEPLATE"
+        android:layout_above="@+id/BUTTON_SUBMIT"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="33dp"
         android:inputType="textCapWords"
-        android:background="@drawable/edittextstyle"/>
+        android:background="@drawable/edittextstyle"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
 
 
 </RelativeLayout>
